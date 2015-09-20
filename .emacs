@@ -1,3 +1,8 @@
+;; MELPA packages
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+
 ;; Deactivate backup
 (setq auto-save-default nil)
 
@@ -75,3 +80,16 @@
 ;;(setq linum-format "%d ")
 (setq linum-format "%4d ")
 
+;; load paths - this way you don't have to rename your                                                       
+;; paths with every update                                                                                   
+(let ((default-directory "~/.emacs.d/elpa/") )
+  (normal-top-level-add-subdirs-to-load-path) )
+
+;; general                                                                                                   
+(require 'popup)  ; don't need this                                                                          
+(require 'auto-complete)
+(require 'auto-complete-config)
+(ac-config-default)
+
+(require 'yasnippet)
+(yas-global-mode 1)
