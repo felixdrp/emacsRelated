@@ -1,9 +1,9 @@
 # emacsRelated
 Different stuff related with emacs
 
-# Install packages
+## Install packages
 
-http://melpa.org/#/getting-started <br>
+[MELPA package manager](http://melpa.org/#/getting-started).
 
 packages:
 <ul>
@@ -13,7 +13,7 @@ packages:
 <li>git clone https://github.com/pomeo/oblivion-emacs.git
 </ul>
 
-# Look at response
+## Look at response
 
 http://allanswershere.com/question/30792332/emacs-melpa-auto-complete-not-working-with-ess-r-15-03
 
