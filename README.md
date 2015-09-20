@@ -1,12 +1,20 @@
 # emacsRelated
 Different stuff related with emacs
+
+# Install packages
+
+http://melpa.org/#/getting-started <br>
+
+packages:
 <ul>
-<li>;; Create directory
-<li>mkdir ~/.emacs.d/vendor
-<li>cd ~/.emacs.d/vendor
-<li>;; Download
-<li>git clone https://github.com/fxbois/web-mode.git
-<li>git clone https://github.com/auto-complete/auto-complete.git
-<li>git clone https://github.com/brianc/jade-mode.git
+<li>web-mode
+<li>auto-complete
+<li>jade-mode
 <li>git clone https://github.com/pomeo/oblivion-emacs.git
 </ul>
+
+# Look at response
+
+http://allanswershere.com/question/30792332/emacs-melpa-auto-complete-not-working-with-ess-r-15-03
+
+
